@@ -1,1 +1,7 @@
-%pre= File.read("views/coffee_script.haml")
+%p
+  %a{:href => "/"} see in action
+
+- Dir["**/*.{rb,haml}"].sort.each do |file|
+  %p
+    %h3= file
+    %pre= File.read file
