@@ -15,7 +15,7 @@ Running locally
 Running on Heroku
 -----------------
 
-Yes, it works on [Heroku](http://heroku.com/) (that's the reason for this repository).
+Yes, [it works](http://coffeescript.heroku.com/) on [Heroku](http://heroku.com/) (that's the reason for this repository).
 
     gem install heroku
     heroku create
