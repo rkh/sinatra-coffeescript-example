@@ -1,1 +1,1 @@
-haml-more --pre
+haml-more --version ">= 0.4.0.a"
